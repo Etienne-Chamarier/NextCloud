@@ -33,7 +33,7 @@ Dans ce script, voici l'ensemble des modules qui seront installés :
 ## Hardening.sh
  - configuration du fichier sshd_config.d (capture écran du fichier final)
 
-## ufw.sh
+## Ufw.sh
  - configuration de ports (ssh, http, https)
 
 ## NextCloud.sh
