@@ -5,9 +5,7 @@ echo "Installation d'UFW en cours..."
 sudo apt update
 sudo apt install ufw -y
 
-# Activer UFW
-echo "Activation d'UFW..."
-sudo ufw enable
+
 
 # Demander les ports pour SSH, HTTP et HTTPS
 read -p "Veuillez entrer le port SSH que vous souhaitez utiliser (par défaut 22) : " ssh_port
@@ -50,6 +48,10 @@ sudo ufw allow $http_port/tcp
 # Autoriser le trafic HTTPS
 echo "Autorisation du trafic HTTPS..."
 sudo ufw allow $https_port/tcp
+
+# Activer UFW
+echo "Activation d'UFW..."
+sudo ufw enable
 
 echo "Configuration d'UFW terminée."
 
