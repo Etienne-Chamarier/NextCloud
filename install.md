@@ -7,8 +7,8 @@ Une fois git installé, vous devez cloner le repos NextToCloud :
 
 $ git clone https://github.com/Glorfinger/NextCloud.git
 
-- HTTPS : "https://github.com/Glorfinger/NextCloud.git"
-- SSH : "git@github.com:Glorfinger/NextCloud.git"
+- HTTPS : 'https://github.com/Glorfinger/NextCloud.git'
+- SSH : 'git@github.com:Glorfinger/NextCloud.git'
 
 Modules installés : 
 
