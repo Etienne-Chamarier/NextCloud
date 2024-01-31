@@ -6,6 +6,7 @@ echo "Installation d'Apache en cours..."
 echo
 
 # Installation d'Apache2
+sudo apt update
 sudo apt-get install apache2 -y
 
 echo
